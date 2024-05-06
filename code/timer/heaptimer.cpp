@@ -73,7 +73,8 @@ int HeapTimer::GetNextTick()
 {
     tick();
     int res = -1;
-    //原来类型是size_t(无符号整型),但是若res为负数，则为无穷大，下面的判断就不起作用了
+    //原文类型是size_t(无符号整型),但是若res为负数，则为无穷大，下面的判断就不起作用了
+    //注意ssize_t是有符号整型，size_t则是无符号整型
     if(!heap_.empty())
     {
         res =std::chrono::duration_cast<MS>(heap_.front().expires - Clock::now()).count();
