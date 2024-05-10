@@ -4,10 +4,10 @@
 #ifndef EPOLLER_H
 #define EPOLLER_H
 
-#include <cstdint>
-#include <sys/epoll.h>
-#include <fcntl.h>
-#include <unistd.h>
+#include <cstdint>  //无符号整数
+#include <sys/epoll.h>  //epoll
+#include <fcntl.h>      //一系列与文件描述符相关的函数，如 fcntl、open、close 等。
+#include <unistd.h>     //read、write、close、dup2 
 #include <assert.h>
 #include <vector>
 #include <errno.h>
