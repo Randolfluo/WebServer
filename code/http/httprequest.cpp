@@ -215,7 +215,7 @@ bool HttpRequest::UserVerify(const std::string &name, const std::string &pwd,
   if (mysql_query(sql, order)) //非0成功
   {
     mysql_free_result(res);
-    //这里field没有指向任何内存空间，因此会在离开作用域时被销毁
+
   }
   res = mysql_store_result(sql);
   j = mysql_num_fields(res);
