@@ -1,0 +1,869 @@
+2024-05-23 21:02:20.071050[debug]: ========== Server init ==========
+2024-05-23 21:02:20.071074[debug]: Port:1514, OpenLinger: false
+2024-05-23 21:02:20.071077[debug]: Listen Mode: ET, OpenConn Mode: ET
+2024-05-23 21:02:20.071079[debug]: LogSys level: 0
+2024-05-23 21:02:20.071080[debug]: srcDir: /home/randolfluo/MyPorject/TinyWebServer/resources/
+2024-05-23 21:02:20.071082[debug]: SqlConnPool num: 12, ThreadPool num: 6
+2024-05-23 21:02:20.071084[debug]: ========== Server start ==========
+2024-05-23 21:02:22.900971[debug]: Client[6](127.0.0.1:27286) in, userCount:1
+2024-05-23 21:02:22.901170[debug]: Client[6] in!
+2024-05-23 21:02:22.901218[debug]: Client[7](127.0.0.1:30870) in, userCount:2
+2024-05-23 21:02:22.901236[debug]: Client[7] in!
+2024-05-23 21:02:22.901854[debug]: [GET], [/index.html], [1.1]
+2024-05-23 21:02:22.901899[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//index.html
+2024-05-23 21:02:22.901906[debug]: filesize:3148, 2  to 3270
+2024-05-23 21:02:22.983859[debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2024-05-23 21:02:22.983976[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/bootstrap.min.css
+2024-05-23 21:02:22.984017[debug]: filesize:121260, 2  to 121384
+2024-05-23 21:02:22.984921[debug]: [GET], [/css/animate.css], [1.1]
+2024-05-23 21:02:22.985100[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/animate.css
+2024-05-23 21:02:22.985138[debug]: filesize:72922, 2  to 73045
+2024-05-23 21:02:22.990582[debug]: [GET], [/css/magnific-popup.css], [1.1]
+2024-05-23 21:02:22.990661[debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2024-05-23 21:02:22.990780[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/font-awesome.min.css
+2024-05-23 21:02:22.990891[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/magnific-popup.css
+2024-05-23 21:02:22.990938[debug]: filesize:27392, 2  to 27515
+2024-05-23 21:02:22.991052[debug]: filesize:6951, 2  to 7073
+2024-05-23 21:02:22.996265[debug]: [GET], [/css/style.css], [1.1]
+2024-05-23 21:02:22.996335[debug]: [GET], [/images/profile-image.jpg], [1.1]
+2024-05-23 21:02:22.996446[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/style.css
+2024-05-23 21:02:22.996517[debug]: filesize:9807, 2  to 9929
+2024-05-23 21:02:22.996446[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/profile-image.jpg
+2024-05-23 21:02:22.996801[debug]: filesize:47176, 2  to 47300
+2024-05-23 21:02:22.999980[debug]: [GET], [/js/jquery.js], [1.1]
+2024-05-23 21:02:23.000104[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.js
+2024-05-23 21:02:23.000144[debug]: filesize:85658, 2  to 85788
+2024-05-23 21:02:23.038844[debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2024-05-23 21:02:23.038998[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/bootstrap.min.js
+2024-05-23 21:02:23.039039[debug]: filesize:36868, 2  to 36998
+2024-05-23 21:02:23.039753[debug]: [GET], [/js/smoothscroll.js], [1.1]
+2024-05-23 21:02:23.039887[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/smoothscroll.js
+2024-05-23 21:02:23.039921[debug]: filesize:4474, 2  to 4603
+2024-05-23 21:02:23.041355[debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2024-05-23 21:02:23.041590[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.magnific-popup.min.js
+2024-05-23 21:02:23.041632[debug]: filesize:20932, 2  to 21062
+2024-05-23 21:02:23.045635[debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2024-05-23 21:02:23.045760[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/magnific-popup-options.js
+2024-05-23 21:02:23.045793[debug]: filesize:1069, 2  to 1198
+2024-05-23 21:02:23.045876[debug]: [GET], [/js/wow.min.js], [1.1]
+2024-05-23 21:02:23.045947[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/wow.min.js
+2024-05-23 21:02:23.045992[debug]: filesize:7082, 2  to 7211
+2024-05-23 21:02:23.048684[debug]: [GET], [/js/custom.js], [1.1]
+2024-05-23 21:02:23.048787[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/custom.js
+2024-05-23 21:02:23.048810[debug]: filesize:1047, 2  to 1176
+2024-05-23 21:02:23.163601[debug]: Client[8](127.0.0.1:32406) in, userCount:3
+2024-05-23 21:02:23.163723[debug]: Client[8] in!
+2024-05-23 21:02:23.288151[debug]: Client[9](127.0.0.1:34454) in, userCount:4
+2024-05-23 21:02:23.288293[debug]: Client[9] in!
+2024-05-23 21:02:23.288383[debug]: Client[10](127.0.0.1:34966) in, userCount:5
+2024-05-23 21:02:23.288484[debug]: Client[10] in!
+2024-05-23 21:02:23.289426[debug]: Client[11](127.0.0.1:38550) in, userCount:6
+2024-05-23 21:02:23.289567[debug]: Client[11] in!
+2024-05-23 21:02:25.391679[debug]: [GET], [/images/favicon.ico], [1.1]
+2024-05-23 21:02:25.391902[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/favicon.ico
+2024-05-23 21:02:25.391966[debug]: filesize:60990, 2  to 61114
+2024-05-23 21:02:26.972931[debug]: [GET], [/picture.html], [1.1]
+2024-05-23 21:02:26.973049[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//picture.html
+2024-05-23 21:02:26.973076[debug]: filesize:3960, 2  to 4082
+2024-05-23 21:02:27.001752[debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2024-05-23 21:02:27.002054[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/bootstrap.min.css
+2024-05-23 21:02:27.002092[debug]: filesize:121260, 2  to 121384
+2024-05-23 21:02:27.004246[debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2024-05-23 21:02:27.004376[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/font-awesome.min.css
+2024-05-23 21:02:27.004411[debug]: filesize:27392, 2  to 27515
+2024-05-23 21:02:27.004777[debug]: [GET], [/css/magnific-popup.css], [1.1]
+2024-05-23 21:02:27.004889[debug]: [GET], [/images/profile-image.jpg], [1.1]
+2024-05-23 21:02:27.004976[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/magnific-popup.css
+2024-05-23 21:02:27.004979[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/profile-image.jpg
+2024-05-23 21:02:27.005105[debug]: filesize:47176, 2  to 47300
+2024-05-23 21:02:27.005127[debug]: filesize:6951, 2  to 7073
+2024-05-23 21:02:27.005802[debug]: [GET], [/css/animate.css], [1.1]
+2024-05-23 21:02:27.005913[debug]: [GET], [/css/style.css], [1.1]
+2024-05-23 21:02:27.005914[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/animate.css
+2024-05-23 21:02:27.006073[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/style.css
+2024-05-23 21:02:27.006077[debug]: filesize:72922, 2  to 73045
+2024-05-23 21:02:27.006208[debug]: filesize:9807, 2  to 9929
+2024-05-23 21:02:27.008072[debug]: [GET], [/images/instagram-image1.jpg], [1.1]
+2024-05-23 21:02:27.008191[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/instagram-image1.jpg
+2024-05-23 21:02:27.008253[debug]: filesize:75836, 2  to 75960
+2024-05-23 21:02:27.025683[debug]: [GET], [/images/instagram-image2.jpg], [1.1]
+2024-05-23 21:02:27.025808[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/instagram-image2.jpg
+2024-05-23 21:02:27.025836[debug]: filesize:67313, 2  to 67437
+2024-05-23 21:02:27.026594[debug]: [GET], [/images/instagram-image3.jpg], [1.1]
+2024-05-23 21:02:27.026717[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/instagram-image3.jpg
+2024-05-23 21:02:27.026760[debug]: filesize:59528, 2  to 59652
+2024-05-23 21:02:27.027919[debug]: [GET], [/images/instagram-image4.jpg], [1.1]
+2024-05-23 21:02:27.028082[debug]: [GET], [/images/instagram-image5.jpg], [1.1]
+2024-05-23 21:02:27.028146[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/instagram-image4.jpg
+2024-05-23 21:02:27.028181[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/instagram-image5.jpg
+2024-05-23 21:02:27.028196[debug]: filesize:103418, 2  to 103543
+2024-05-23 21:02:27.028214[debug]: filesize:49545, 2  to 49669
+2024-05-23 21:02:27.037386[debug]: [GET], [/js/jquery.js], [1.1]
+2024-05-23 21:02:27.037536[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.js
+2024-05-23 21:02:27.037574[debug]: filesize:85658, 2  to 85788
+2024-05-23 21:02:27.038343[debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2024-05-23 21:02:27.038448[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/bootstrap.min.js
+2024-05-23 21:02:27.038479[debug]: filesize:36868, 2  to 36998
+2024-05-23 21:02:27.039669[debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2024-05-23 21:02:27.039832[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/magnific-popup-options.js
+2024-05-23 21:02:27.039869[debug]: filesize:1069, 2  to 1198
+2024-05-23 21:02:27.040240[debug]: [GET], [/js/wow.min.js], [1.1]
+2024-05-23 21:02:27.040356[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/wow.min.js
+2024-05-23 21:02:27.040396[debug]: filesize:7082, 2  to 7211
+2024-05-23 21:02:27.040522[debug]: [GET], [/js/smoothscroll.js], [1.1]
+2024-05-23 21:02:27.040655[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/smoothscroll.js
+2024-05-23 21:02:27.040681[debug]: filesize:4474, 2  to 4603
+2024-05-23 21:02:27.040679[debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2024-05-23 21:02:27.041000[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.magnific-popup.min.js
+2024-05-23 21:02:27.041155[debug]: filesize:20932, 2  to 21062
+2024-05-23 21:02:27.044771[debug]: [GET], [/js/custom.js], [1.1]
+2024-05-23 21:02:27.044907[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/custom.js
+2024-05-23 21:02:27.044943[debug]: filesize:1047, 2  to 1176
+2024-05-23 21:02:28.439662[debug]: [GET], [/video], [1.1]
+2024-05-23 21:02:28.439782[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//404.html
+2024-05-23 21:02:28.439808[debug]: filesize:3149, 2  to 3278
+2024-05-23 21:02:28.462626[debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2024-05-23 21:02:28.462760[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/font-awesome.min.css
+2024-05-23 21:02:28.462790[debug]: filesize:27392, 2  to 27515
+2024-05-23 21:02:28.463306[debug]: [GET], [/css/style.css], [1.1]
+2024-05-23 21:02:28.463407[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/style.css
+2024-05-23 21:02:28.463439[debug]: filesize:9807, 2  to 9929
+2024-05-23 21:02:28.464331[debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2024-05-23 21:02:28.464457[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/bootstrap.min.css
+2024-05-23 21:02:28.464485[debug]: [GET], [/css/animate.css], [1.1]
+2024-05-23 21:02:28.464577[debug]: filesize:121260, 2  to 121384
+2024-05-23 21:02:28.464586[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/animate.css
+2024-05-23 21:02:28.464786[debug]: [GET], [/css/magnific-popup.css], [1.1]
+2024-05-23 21:02:28.464800[debug]: [GET], [/images/profile-image.jpg], [1.1]
+2024-05-23 21:02:28.464838[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/profile-image.jpg
+2024-05-23 21:02:28.464824[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/magnific-popup.css
+2024-05-23 21:02:28.464821[debug]: filesize:72922, 2  to 73045
+2024-05-23 21:02:28.464872[debug]: filesize:47176, 2  to 47300
+2024-05-23 21:02:28.464881[debug]: filesize:6951, 2  to 7073
+2024-05-23 21:02:28.472516[debug]: [GET], [/js/jquery.js], [1.1]
+2024-05-23 21:02:28.472671[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.js
+2024-05-23 21:02:28.472704[debug]: filesize:85658, 2  to 85788
+2024-05-23 21:02:28.482403[debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2024-05-23 21:02:28.482520[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.magnific-popup.min.js
+2024-05-23 21:02:28.482547[debug]: filesize:20932, 2  to 21062
+2024-05-23 21:02:28.482991[debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2024-05-23 21:02:28.483064[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/bootstrap.min.js
+2024-05-23 21:02:28.483083[debug]: [GET], [/js/wow.min.js], [1.1]
+2024-05-23 21:02:28.483095[debug]: filesize:36868, 2  to 36998
+2024-05-23 21:02:28.483113[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/wow.min.js
+2024-05-23 21:02:28.483146[debug]: filesize:7082, 2  to 7211
+2024-05-23 21:02:28.483620[debug]: [GET], [/js/smoothscroll.js], [1.1]
+2024-05-23 21:02:28.483669[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/smoothscroll.js
+2024-05-23 21:02:28.483688[debug]: filesize:4474, 2  to 4603
+2024-05-23 21:02:28.483951[debug]: [GET], [/js/custom.js], [1.1]
+2024-05-23 21:02:28.483999[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/custom.js
+2024-05-23 21:02:28.484017[debug]: filesize:1047, 2  to 1176
+2024-05-23 21:02:28.484077[debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2024-05-23 21:02:28.484123[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/magnific-popup-options.js
+2024-05-23 21:02:28.484135[debug]: filesize:1069, 2  to 1198
+2024-05-23 21:02:32.098747[debug]: [GET], [/login.html], [1.1]
+2024-05-23 21:02:32.098924[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//login.html
+2024-05-23 21:02:32.098951[debug]: filesize:3385, 2  to 3507
+2024-05-23 21:02:32.112093[debug]: [GET], [/css/style.css], [1.1]
+2024-05-23 21:02:32.112103[debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2024-05-23 21:02:32.112233[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/style.css
+2024-05-23 21:02:32.112276[debug]: filesize:9807, 2  to 9929
+2024-05-23 21:02:32.112287[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/font-awesome.min.css
+2024-05-23 21:02:32.112339[debug]: filesize:27392, 2  to 27515
+2024-05-23 21:02:32.112557[debug]: [GET], [/css/magnific-popup.css], [1.1]
+2024-05-23 21:02:32.112617[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/magnific-popup.css
+2024-05-23 21:02:32.112643[debug]: filesize:6951, 2  to 7073
+2024-05-23 21:02:32.112973[debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2024-05-23 21:02:32.113006[debug]: [GET], [/css/animate.css], [1.1]
+2024-05-23 21:02:32.113055[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/bootstrap.min.css
+2024-05-23 21:02:32.113140[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/animate.css
+2024-05-23 21:02:32.113162[debug]: filesize:121260, 2  to 121384
+2024-05-23 21:02:32.113171[debug]: filesize:72922, 2  to 73045
+2024-05-23 21:02:32.123686[debug]: [GET], [/js/jquery.js], [1.1]
+2024-05-23 21:02:32.123949[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.js
+2024-05-23 21:02:32.123982[debug]: filesize:85658, 2  to 85788
+2024-05-23 21:02:32.124351[debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2024-05-23 21:02:32.124519[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/bootstrap.min.js
+2024-05-23 21:02:32.124566[debug]: filesize:36868, 2  to 36998
+2024-05-23 21:02:32.126044[debug]: [GET], [/js/smoothscroll.js], [1.1]
+2024-05-23 21:02:32.126127[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/smoothscroll.js
+2024-05-23 21:02:32.126156[debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2024-05-23 21:02:32.126199[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.magnific-popup.min.js
+2024-05-23 21:02:32.126199[debug]: filesize:4474, 2  to 4603
+2024-05-23 21:02:32.126219[debug]: filesize:20932, 2  to 21062
+2024-05-23 21:02:32.126651[debug]: [GET], [/js/wow.min.js], [1.1]
+2024-05-23 21:02:32.126756[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/wow.min.js
+2024-05-23 21:02:32.126778[debug]: filesize:7082, 2  to 7211
+2024-05-23 21:02:32.126796[debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2024-05-23 21:02:32.126825[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/magnific-popup-options.js
+2024-05-23 21:02:32.126833[debug]: filesize:1069, 2  to 1198
+2024-05-23 21:02:32.128709[debug]: [GET], [/js/custom.js], [1.1]
+2024-05-23 21:02:32.128795[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/custom.js
+2024-05-23 21:02:32.128826[debug]: filesize:1047, 2  to 1176
+2024-05-23 21:02:35.406682[debug]: [GET], [/register.html], [1.1]
+2024-05-23 21:02:35.406892[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//register.html
+2024-05-23 21:02:35.406923[debug]: filesize:3380, 2  to 3502
+2024-05-23 21:02:35.433417[debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2024-05-23 21:02:35.433576[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/bootstrap.min.css
+2024-05-23 21:02:35.433618[debug]: filesize:121260, 2  to 121384
+2024-05-23 21:02:35.436433[debug]: [GET], [/css/magnific-popup.css], [1.1]
+2024-05-23 21:02:35.436501[debug]: [GET], [/css/style.css], [1.1]
+2024-05-23 21:02:35.436603[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/magnific-popup.css
+2024-05-23 21:02:35.436644[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/style.css
+2024-05-23 21:02:35.436676[debug]: filesize:9807, 2  to 9929
+2024-05-23 21:02:35.436677[debug]: filesize:6951, 2  to 7073
+2024-05-23 21:02:35.436995[debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2024-05-23 21:02:35.437061[debug]: [GET], [/css/animate.css], [1.1]
+2024-05-23 21:02:35.437155[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/font-awesome.min.css
+2024-05-23 21:02:35.437201[debug]: filesize:27392, 2  to 27515
+2024-05-23 21:02:35.437293[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/animate.css
+2024-05-23 21:02:35.437361[debug]: filesize:72922, 2  to 73045
+2024-05-23 21:02:35.446958[debug]: [GET], [/js/jquery.js], [1.1]
+2024-05-23 21:02:35.447149[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.js
+2024-05-23 21:02:35.447229[debug]: filesize:85658, 2  to 85788
+2024-05-23 21:02:35.448685[debug]: [GET], [/js/wow.min.js], [1.1]
+2024-05-23 21:02:35.448824[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/wow.min.js
+2024-05-23 21:02:35.448865[debug]: filesize:7082, 2  to 7211
+2024-05-23 21:02:35.449078[debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2024-05-23 21:02:35.449173[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/bootstrap.min.js
+2024-05-23 21:02:35.449186[debug]: filesize:36868, 2  to 36998
+2024-05-23 21:02:35.449498[debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2024-05-23 21:02:35.449583[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.magnific-popup.min.js
+2024-05-23 21:02:35.449615[debug]: filesize:20932, 2  to 21062
+2024-05-23 21:02:35.449671[debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2024-05-23 21:02:35.449749[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/magnific-popup-options.js
+2024-05-23 21:02:35.449776[debug]: filesize:1069, 2  to 1198
+2024-05-23 21:02:35.449880[debug]: [GET], [/js/smoothscroll.js], [1.1]
+2024-05-23 21:02:35.449961[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/smoothscroll.js
+2024-05-23 21:02:35.449989[debug]: filesize:4474, 2  to 4603
+2024-05-23 21:02:35.450714[debug]: [GET], [/js/custom.js], [1.1]
+2024-05-23 21:02:35.450820[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/custom.js
+2024-05-23 21:02:35.450848[debug]: filesize:1047, 2  to 1176
+2024-05-23 21:02:38.896031[debug]: username = 1234567
+2024-05-23 21:02:38.896161[debug]: username=1234567&password=232
+2024-05-23 21:08:45.997746[debug]: ========== Server init ==========
+2024-05-23 21:08:45.997767[debug]: Port:1514, OpenLinger: false
+2024-05-23 21:08:45.997770[debug]: Listen Mode: ET, OpenConn Mode: ET
+2024-05-23 21:08:45.997771[debug]: LogSys level: 0
+2024-05-23 21:08:45.997809[debug]: srcDir: /home/randolfluo/MyPorject/TinyWebServer/resources/
+2024-05-23 21:08:45.998023[debug]: SqlConnPool num: 12, ThreadPool num: 6
+2024-05-23 21:08:45.998038[debug]: ========== Server start ==========
+2024-05-23 21:08:51.510399[debug]: Client[18](127.0.0.1:15046) in, userCount:1
+2024-05-23 21:08:51.510491[debug]: Client[18] in!
+2024-05-23 21:08:51.510938[debug]: Client[19](127.0.0.1:16070) in, userCount:2
+2024-05-23 21:08:51.510972[debug]: Client[19] in!
+2024-05-23 21:08:51.512010[debug]: username = 1234567
+2024-05-23 21:08:51.512039[debug]: username=1234567&password=232
+2024-05-23 21:08:51.512044[debug]: Verify name:1234567 pwd:232
+2024-05-23 21:08:51.512048[debug]: select username, password from user WHERE username = '1234567' LIMIT 1
+2024-05-23 21:08:51.522722[debug]: MYSQL ROW: 1234567 232
+2024-05-23 21:08:51.522780[debug]: user used!
+2024-05-23 21:08:51.522784[debug]: UserVerify success!!
+2024-05-23 21:08:51.522786[debug]: Body:username=1234567&password=232, len:29
+2024-05-23 21:08:51.522789[debug]: [POST], [/error.html], [1.1]
+2024-05-23 21:08:51.522822[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//error.html
+2024-05-23 21:08:51.523038[debug]: filesize:3265, 2  to 3387
+2024-05-23 21:08:51.523262[debug]: RequestLine Error
+2024-05-23 21:08:51.523303[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//404.html
+2024-05-23 21:08:51.523553[debug]: filesize:3149, 2  to 3241
+2024-05-23 21:08:51.523677[debug]: Client[18] quit!
+2024-05-23 21:08:51.523781[debug]: Client[18](127.0.0.1:15046) quit, UserCount:1
+2024-05-23 21:08:51.542574[debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2024-05-23 21:08:51.543059[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/bootstrap.min.css
+2024-05-23 21:08:51.543720[debug]: filesize:121260, 2  to 121384
+2024-05-23 21:08:51.547164[debug]: [GET], [/css/animate.css], [1.1]
+2024-05-23 21:08:51.547266[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/animate.css
+2024-05-23 21:08:51.547892[debug]: filesize:72922, 2  to 73045
+2024-05-23 21:08:51.550715[debug]: [GET], [/css/magnific-popup.css], [1.1]
+2024-05-23 21:08:51.550912[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/magnific-popup.css
+2024-05-23 21:08:51.551367[debug]: filesize:6951, 2  to 7073
+2024-05-23 21:08:51.553772[debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2024-05-23 21:08:51.553910[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/font-awesome.min.css
+2024-05-23 21:08:51.554313[debug]: filesize:27392, 2  to 27515
+2024-05-23 21:08:51.556576[debug]: [GET], [/css/style.css], [1.1]
+2024-05-23 21:08:51.556661[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/style.css
+2024-05-23 21:08:51.556993[debug]: filesize:9807, 2  to 9929
+2024-05-23 21:08:51.561827[debug]: [GET], [/images/profile-image.jpg], [1.1]
+2024-05-23 21:08:51.562302[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/profile-image.jpg
+2024-05-23 21:08:51.562828[debug]: filesize:47176, 2  to 47300
+2024-05-23 21:08:51.565706[debug]: [GET], [/js/jquery.js], [1.1]
+2024-05-23 21:08:51.566167[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.js
+2024-05-23 21:08:51.566657[debug]: filesize:85658, 2  to 85788
+2024-05-23 21:08:51.578767[debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2024-05-23 21:08:51.578902[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/bootstrap.min.js
+2024-05-23 21:08:51.579331[debug]: filesize:36868, 2  to 36998
+2024-05-23 21:08:51.581898[debug]: [GET], [/js/smoothscroll.js], [1.1]
+2024-05-23 21:08:51.581999[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/smoothscroll.js
+2024-05-23 21:08:51.582309[debug]: filesize:4474, 2  to 4603
+2024-05-23 21:08:51.584920[debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2024-05-23 21:08:51.585082[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.magnific-popup.min.js
+2024-05-23 21:08:51.585369[debug]: filesize:20932, 2  to 21062
+2024-05-23 21:08:51.587862[debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2024-05-23 21:08:51.587945[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/magnific-popup-options.js
+2024-05-23 21:08:51.588195[debug]: filesize:1069, 2  to 1198
+2024-05-23 21:08:51.589687[debug]: [GET], [/js/wow.min.js], [1.1]
+2024-05-23 21:08:51.589753[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/wow.min.js
+2024-05-23 21:08:51.590033[debug]: filesize:7082, 2  to 7211
+2024-05-23 21:08:51.592175[debug]: [GET], [/js/custom.js], [1.1]
+2024-05-23 21:08:51.592238[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/custom.js
+2024-05-23 21:08:51.592482[debug]: filesize:1047, 2  to 1176
+2024-05-23 21:08:51.740997[debug]: [GET], [/images/favicon.ico], [1.1]
+2024-05-23 21:08:51.741097[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/favicon.ico
+2024-05-23 21:08:51.741744[debug]: filesize:60990, 2  to 61114
+2024-05-23 21:08:51.748261[debug]: Client[18](127.0.0.1:17606) in, userCount:2
+2024-05-23 21:08:51.748317[debug]: Client[18] in!
+2024-05-23 21:08:51.855132[debug]: Client[20](127.0.0.1:18118) in, userCount:3
+2024-05-23 21:08:51.855184[debug]: Client[20] in!
+2024-05-23 21:08:51.855351[debug]: Client[21](127.0.0.1:20166) in, userCount:4
+2024-05-23 21:08:51.855388[debug]: Client[21] in!
+2024-05-23 21:08:51.855417[debug]: Client[22](127.0.0.1:22726) in, userCount:5
+2024-05-23 21:08:51.855423[debug]: Client[22] in!
+2024-05-23 21:08:51.856612[debug]: Client[23](127.0.0.1:25286) in, userCount:6
+2024-05-23 21:08:51.856765[debug]: Client[23] in!
+2024-05-23 21:08:54.944451[debug]: [GET], [/register.html], [1.1]
+2024-05-23 21:08:54.944552[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//register.html
+2024-05-23 21:08:54.945819[debug]: filesize:3380, 2  to 3502
+2024-05-23 21:08:54.959245[debug]: [GET], [/css/style.css], [1.1]
+2024-05-23 21:08:54.959333[debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2024-05-23 21:08:54.959445[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/style.css
+2024-05-23 21:08:54.959475[debug]: filesize:9807, 2  to 9929
+2024-05-23 21:08:54.959470[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/font-awesome.min.css
+2024-05-23 21:08:54.959597[debug]: filesize:27392, 2  to 27515
+2024-05-23 21:08:54.959832[debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2024-05-23 21:08:54.960033[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/bootstrap.min.css
+2024-05-23 21:08:54.960077[debug]: filesize:121260, 2  to 121384
+2024-05-23 21:08:54.961016[debug]: [GET], [/css/magnific-popup.css], [1.1]
+2024-05-23 21:08:54.961111[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/magnific-popup.css
+2024-05-23 21:08:54.961031[debug]: [GET], [/css/animate.css], [1.1]
+2024-05-23 21:08:54.961135[debug]: filesize:6951, 2  to 7073
+2024-05-23 21:08:54.961146[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/animate.css
+2024-05-23 21:08:54.961190[debug]: filesize:72922, 2  to 73045
+2024-05-23 21:08:54.973011[debug]: [GET], [/js/jquery.js], [1.1]
+2024-05-23 21:08:54.973101[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.js
+2024-05-23 21:08:54.973137[debug]: [GET], [/js/smoothscroll.js], [1.1]
+2024-05-23 21:08:54.973141[debug]: filesize:85658, 2  to 85788
+2024-05-23 21:08:54.973212[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/smoothscroll.js
+2024-05-23 21:08:54.973233[debug]: filesize:4474, 2  to 4603
+2024-05-23 21:08:54.973642[debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2024-05-23 21:08:54.973647[debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2024-05-23 21:08:54.973710[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.magnific-popup.min.js
+2024-05-23 21:08:54.973692[debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2024-05-23 21:08:54.973701[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/magnific-popup-options.js
+2024-05-23 21:08:54.973735[debug]: filesize:20932, 2  to 21062
+2024-05-23 21:08:54.973863[debug]: [GET], [/js/wow.min.js], [1.1]
+2024-05-23 21:08:54.973885[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/wow.min.js
+2024-05-23 21:08:54.973928[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/bootstrap.min.js
+2024-05-23 21:08:54.973943[debug]: filesize:1069, 2  to 1198
+2024-05-23 21:08:54.973952[debug]: filesize:36868, 2  to 36998
+2024-05-23 21:08:54.973995[debug]: filesize:7082, 2  to 7211
+2024-05-23 21:08:54.976799[debug]: [GET], [/js/custom.js], [1.1]
+2024-05-23 21:08:54.976892[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/custom.js
+2024-05-23 21:08:54.976918[debug]: filesize:1047, 2  to 1176
+2024-05-23 21:08:58.489737[debug]: username = 1234567
+2024-05-23 21:08:58.489799[debug]: username=1234567&password=232
+2024-05-23 21:08:58.489806[debug]: Verify name:1234567 pwd:232
+2024-05-23 21:08:58.489810[debug]: select username, password from user WHERE username = '1234567' LIMIT 1
+2024-05-23 21:08:58.490275[debug]: MYSQL ROW: 1234567 232
+2024-05-23 21:08:58.490304[debug]: user used!
+2024-05-23 21:08:58.490310[debug]: UserVerify success!!
+2024-05-23 21:08:58.490323[debug]: Body:username=1234567&password=232, len:29
+2024-05-23 21:08:58.490326[debug]: [POST], [/error.html], [1.1]
+2024-05-23 21:08:58.490365[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//error.html
+2024-05-23 21:08:58.490386[debug]: filesize:3265, 2  to 3387
+2024-05-23 21:08:58.490682[debug]: RequestLine Error
+2024-05-23 21:08:58.490731[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//404.html
+2024-05-23 21:08:58.490749[debug]: filesize:3149, 2  to 3241
+2024-05-23 21:08:58.490920[debug]: Client[22] quit!
+2024-05-23 21:08:58.491060[debug]: Client[22](127.0.0.1:22726) quit, UserCount:5
+2024-05-23 21:08:58.503636[debug]: [GET], [/css/animate.css], [1.1]
+2024-05-23 21:08:58.503757[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/animate.css
+2024-05-23 21:08:58.503780[debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2024-05-23 21:08:58.503788[debug]: filesize:72922, 2  to 73045
+2024-05-23 21:08:58.503860[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/bootstrap.min.css
+2024-05-23 21:08:58.503983[debug]: [GET], [/css/magnific-popup.css], [1.1]
+2024-05-23 21:08:58.504036[debug]: filesize:121260, 2  to 121384
+2024-05-23 21:08:58.504072[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/magnific-popup.css
+2024-05-23 21:08:58.504084[debug]: filesize:6951, 2  to 7073
+2024-05-23 21:08:58.504334[debug]: [GET], [/css/style.css], [1.1]
+2024-05-23 21:08:58.504447[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/style.css
+2024-05-23 21:08:58.504483[debug]: filesize:9807, 2  to 9929
+2024-05-23 21:08:58.504503[debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2024-05-23 21:08:58.504548[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/font-awesome.min.css
+2024-05-23 21:08:58.504569[debug]: filesize:27392, 2  to 27515
+2024-05-23 21:08:58.508543[debug]: [GET], [/images/profile-image.jpg], [1.1]
+2024-05-23 21:08:58.508749[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/profile-image.jpg
+2024-05-23 21:08:58.508793[debug]: filesize:47176, 2  to 47300
+2024-05-23 21:08:58.514649[debug]: [GET], [/js/jquery.js], [1.1]
+2024-05-23 21:08:58.514734[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.js
+2024-05-23 21:08:58.514764[debug]: filesize:85658, 2  to 85788
+2024-05-23 21:08:58.523180[debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2024-05-23 21:08:58.523331[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/bootstrap.min.js
+2024-05-23 21:08:58.523381[debug]: filesize:36868, 2  to 36998
+2024-05-23 21:08:58.532454[debug]: [GET], [/js/smoothscroll.js], [1.1]
+2024-05-23 21:08:58.532548[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/smoothscroll.js
+2024-05-23 21:08:58.532564[debug]: filesize:4474, 2  to 4603
+2024-05-23 21:08:58.532832[debug]: [GET], [/js/wow.min.js], [1.1]
+2024-05-23 21:08:58.532891[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/wow.min.js
+2024-05-23 21:08:58.532914[debug]: filesize:7082, 2  to 7211
+2024-05-23 21:08:58.533004[debug]: [GET], [/js/custom.js], [1.1]
+2024-05-23 21:08:58.533048[debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2024-05-23 21:08:58.533084[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/custom.js
+2024-05-23 21:08:58.533099[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/magnific-popup-options.js
+2024-05-23 21:08:58.533125[debug]: filesize:1069, 2  to 1198
+2024-05-23 21:08:58.533136[debug]: filesize:1047, 2  to 1176
+2024-05-23 21:08:58.533339[debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2024-05-23 21:08:58.533439[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.magnific-popup.min.js
+2024-05-23 21:08:58.533462[debug]: filesize:20932, 2  to 21062
+2024-05-23 21:08:58.807771[debug]: Client[22](127.0.0.1:50340) in, userCount:6
+2024-05-23 21:08:58.807831[debug]: Client[22] in!
+2024-05-23 21:09:03.326347[debug]: [GET], [/register.html], [1.1]
+2024-05-23 21:09:03.326437[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//register.html
+2024-05-23 21:09:03.326462[debug]: filesize:3380, 2  to 3502
+2024-05-23 21:09:03.339819[debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2024-05-23 21:09:03.339944[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/bootstrap.min.css
+2024-05-23 21:09:03.339964[debug]: filesize:121260, 2  to 121384
+2024-05-23 21:09:03.340852[debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2024-05-23 21:09:03.340923[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/font-awesome.min.css
+2024-05-23 21:09:03.340936[debug]: filesize:27392, 2  to 27515
+2024-05-23 21:09:03.341100[debug]: [GET], [/css/style.css], [1.1]
+2024-05-23 21:09:03.341164[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/style.css
+2024-05-23 21:09:03.341180[debug]: [GET], [/css/magnific-popup.css], [1.1]
+2024-05-23 21:09:03.341243[debug]: [GET], [/css/animate.css], [1.1]
+2024-05-23 21:09:03.341296[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/animate.css
+2024-05-23 21:09:03.341314[debug]: filesize:72922, 2  to 73045
+2024-05-23 21:09:03.341246[debug]: filesize:9807, 2  to 9929
+2024-05-23 21:09:03.341325[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/magnific-popup.css
+2024-05-23 21:09:03.341373[debug]: filesize:6951, 2  to 7073
+2024-05-23 21:09:03.351100[debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2024-05-23 21:09:03.351194[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/bootstrap.min.js
+2024-05-23 21:09:03.351227[debug]: [GET], [/js/jquery.js], [1.1]
+2024-05-23 21:09:03.351233[debug]: filesize:36868, 2  to 36998
+2024-05-23 21:09:03.351297[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.js
+2024-05-23 21:09:03.351321[debug]: filesize:85658, 2  to 85788
+2024-05-23 21:09:03.357731[debug]: [GET], [/js/smoothscroll.js], [1.1]
+2024-05-23 21:09:03.357845[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/smoothscroll.js
+2024-05-23 21:09:03.357875[debug]: filesize:4474, 2  to 4603
+2024-05-23 21:09:03.358587[debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2024-05-23 21:09:03.358667[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.magnific-popup.min.js
+2024-05-23 21:09:03.358735[debug]: filesize:20932, 2  to 21062
+2024-05-23 21:09:03.358985[debug]: [GET], [/js/custom.js], [1.1]
+2024-05-23 21:09:03.359033[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/custom.js
+2024-05-23 21:09:03.359044[debug]: filesize:1047, 2  to 1176
+2024-05-23 21:09:03.359232[debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2024-05-23 21:09:03.359292[debug]: [GET], [/js/wow.min.js], [1.1]
+2024-05-23 21:09:03.359370[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/magnific-popup-options.js
+2024-05-23 21:09:03.359378[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/wow.min.js
+2024-05-23 21:09:03.359457[debug]: filesize:7082, 2  to 7211
+2024-05-23 21:09:03.359639[debug]: filesize:1069, 2  to 1198
+2024-05-23 21:09:09.401270[debug]: username = 32322323
+2024-05-23 21:09:09.401337[debug]: username=32322323&password=w323232
+2024-05-23 21:09:09.401342[debug]: Verify name:32322323 pwd:w323232
+2024-05-23 21:09:09.401344[debug]: select username, password from user WHERE username = '32322323' LIMIT 1
+2024-05-23 21:09:09.401887[debug]: regirster!
+2024-05-23 21:09:09.402030[debug]: INSERT INTO user(username, password) VALUES('32322323','w323232')
+2024-05-23 21:09:09.405963[debug]: UserVerify success!!
+2024-05-23 21:09:09.406006[debug]: Body:username=32322323&password=w323232, len:34
+2024-05-23 21:09:09.406020[debug]: [POST], [/welcome.html], [1.1]
+2024-05-23 21:09:09.406061[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//welcome.html
+2024-05-23 21:09:09.406269[debug]: filesize:3161, 2  to 3283
+2024-05-23 21:09:09.406459[debug]: RequestLine Error
+2024-05-23 21:09:09.406504[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//404.html
+2024-05-23 21:09:09.406512[debug]: filesize:3149, 2  to 3241
+2024-05-23 21:09:09.406576[debug]: Client[21] quit!
+2024-05-23 21:09:09.406614[debug]: Client[21](127.0.0.1:20166) quit, UserCount:5
+2024-05-23 21:09:09.423943[debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2024-05-23 21:09:09.424038[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/bootstrap.min.css
+2024-05-23 21:09:09.424066[debug]: filesize:121260, 2  to 121384
+2024-05-23 21:09:09.425864[debug]: [GET], [/css/animate.css], [1.1]
+2024-05-23 21:09:09.426046[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/animate.css
+2024-05-23 21:09:09.426089[debug]: filesize:72922, 2  to 73045
+2024-05-23 21:09:09.426208[debug]: [GET], [/css/magnific-popup.css], [1.1]
+2024-05-23 21:09:09.426267[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/magnific-popup.css
+2024-05-23 21:09:09.426289[debug]: filesize:6951, 2  to 7073
+2024-05-23 21:09:09.428544[debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2024-05-23 21:09:09.428624[debug]: [GET], [/images/profile-image.jpg], [1.1]
+2024-05-23 21:09:09.428632[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/font-awesome.min.css
+2024-05-23 21:09:09.428751[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/profile-image.jpg
+2024-05-23 21:09:09.428820[debug]: filesize:27392, 2  to 27515
+2024-05-23 21:09:09.428803[debug]: [GET], [/css/style.css], [1.1]
+2024-05-23 21:09:09.428942[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/style.css
+2024-05-23 21:09:09.428806[debug]: filesize:47176, 2  to 47300
+2024-05-23 21:09:09.429082[debug]: filesize:9807, 2  to 9929
+2024-05-23 21:09:09.429345[debug]: [GET], [/js/jquery.js], [1.1]
+2024-05-23 21:09:09.429393[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.js
+2024-05-23 21:09:09.429416[debug]: filesize:85658, 2  to 85788
+2024-05-23 21:09:09.447513[debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2024-05-23 21:09:09.447596[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/bootstrap.min.js
+2024-05-23 21:09:09.447624[debug]: filesize:36868, 2  to 36998
+2024-05-23 21:09:09.447776[debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2024-05-23 21:09:09.447809[debug]: [GET], [/js/smoothscroll.js], [1.1]
+2024-05-23 21:09:09.447783[debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2024-05-23 21:09:09.447851[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/magnific-popup-options.js
+2024-05-23 21:09:09.447859[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.magnific-popup.min.js
+2024-05-23 21:09:09.447865[debug]: filesize:1069, 2  to 1198
+2024-05-23 21:09:09.447871[debug]: filesize:20932, 2  to 21062
+2024-05-23 21:09:09.447885[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/smoothscroll.js
+2024-05-23 21:09:09.447901[debug]: filesize:4474, 2  to 4603
+2024-05-23 21:09:09.447918[debug]: [GET], [/js/wow.min.js], [1.1]
+2024-05-23 21:09:09.447956[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/wow.min.js
+2024-05-23 21:09:09.447974[debug]: filesize:7082, 2  to 7211
+2024-05-23 21:09:09.449820[debug]: [GET], [/js/custom.js], [1.1]
+2024-05-23 21:09:09.449885[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/custom.js
+2024-05-23 21:09:09.449909[debug]: filesize:1047, 2  to 1176
+2024-05-23 21:09:09.727527[debug]: Client[21](127.0.0.1:16584) in, userCount:6
+2024-05-23 21:09:09.727642[debug]: Client[21] in!
+2024-05-23 21:09:11.870414[debug]: [GET], [/video], [1.1]
+2024-05-23 21:09:11.870513[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//404.html
+2024-05-23 21:09:11.870537[debug]: filesize:3149, 2  to 3278
+2024-05-23 21:09:11.885980[debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2024-05-23 21:09:11.886118[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/bootstrap.min.css
+2024-05-23 21:09:11.886166[debug]: filesize:121260, 2  to 121384
+2024-05-23 21:09:11.886614[debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2024-05-23 21:09:11.886681[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/font-awesome.min.css
+2024-05-23 21:09:11.886705[debug]: filesize:27392, 2  to 27515
+2024-05-23 21:09:11.886756[debug]: [GET], [/css/style.css], [1.1]
+2024-05-23 21:09:11.886835[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/style.css
+2024-05-23 21:09:11.886848[debug]: filesize:9807, 2  to 9929
+2024-05-23 21:09:11.886916[debug]: [GET], [/css/magnific-popup.css], [1.1]
+2024-05-23 21:09:11.886983[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/magnific-popup.css
+2024-05-23 21:09:11.887016[debug]: filesize:6951, 2  to 7073
+2024-05-23 21:09:11.887463[debug]: [GET], [/css/animate.css], [1.1]
+2024-05-23 21:09:11.887530[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/animate.css
+2024-05-23 21:09:11.887549[debug]: [GET], [/images/profile-image.jpg], [1.1]
+2024-05-23 21:09:11.887557[debug]: filesize:72922, 2  to 73045
+2024-05-23 21:09:11.887569[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/profile-image.jpg
+2024-05-23 21:09:11.887580[debug]: filesize:47176, 2  to 47300
+2024-05-23 21:09:11.895915[debug]: [GET], [/js/jquery.js], [1.1]
+2024-05-23 21:09:11.895999[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.js
+2024-05-23 21:09:11.896074[debug]: filesize:85658, 2  to 85788
+2024-05-23 21:09:11.904103[debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2024-05-23 21:09:11.904201[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/bootstrap.min.js
+2024-05-23 21:09:11.904228[debug]: filesize:36868, 2  to 36998
+2024-05-23 21:09:11.914152[debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2024-05-23 21:09:11.914235[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/magnific-popup-options.js
+2024-05-23 21:09:11.914249[debug]: filesize:1069, 2  to 1198
+2024-05-23 21:09:11.914360[debug]: [GET], [/js/custom.js], [1.1]
+2024-05-23 21:09:11.914415[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/custom.js
+2024-05-23 21:09:11.914438[debug]: filesize:1047, 2  to 1176
+2024-05-23 21:09:11.914499[debug]: [GET], [/js/wow.min.js], [1.1]
+2024-05-23 21:09:11.914546[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/wow.min.js
+2024-05-23 21:09:11.914568[debug]: filesize:7082, 2  to 7211
+2024-05-23 21:09:11.915560[debug]: [GET], [/js/smoothscroll.js], [1.1]
+2024-05-23 21:09:11.915557[debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2024-05-23 21:09:11.915926[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.magnific-popup.min.js
+2024-05-23 21:09:11.915969[debug]: filesize:20932, 2  to 21062
+2024-05-23 21:09:11.915926[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/smoothscroll.js
+2024-05-23 21:09:11.916045[debug]: filesize:4474, 2  to 4603
+2024-05-23 21:09:13.368075[debug]: [GET], [/picture.html], [1.1]
+2024-05-23 21:09:13.368259[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//picture.html
+2024-05-23 21:09:13.368792[debug]: filesize:3960, 2  to 4082
+2024-05-23 21:09:13.384139[debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2024-05-23 21:09:13.384311[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/bootstrap.min.css
+2024-05-23 21:09:13.384361[debug]: filesize:121260, 2  to 121384
+2024-05-23 21:09:13.384513[debug]: [GET], [/images/profile-image.jpg], [1.1]
+2024-05-23 21:09:13.384587[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/profile-image.jpg
+2024-05-23 21:09:13.384624[debug]: filesize:47176, 2  to 47300
+2024-05-23 21:09:13.384732[debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2024-05-23 21:09:13.384792[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/font-awesome.min.css
+2024-05-23 21:09:13.384819[debug]: filesize:27392, 2  to 27515
+2024-05-23 21:09:13.386773[debug]: [GET], [/css/style.css], [1.1]
+2024-05-23 21:09:13.386782[debug]: [GET], [/css/magnific-popup.css], [1.1]
+2024-05-23 21:09:13.386892[debug]: [GET], [/css/animate.css], [1.1]
+2024-05-23 21:09:13.387063[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/animate.css
+2024-05-23 21:09:13.387088[debug]: filesize:72922, 2  to 73045
+2024-05-23 21:09:13.387149[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/style.css
+2024-05-23 21:09:13.387176[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/magnific-popup.css
+2024-05-23 21:09:13.387181[debug]: filesize:9807, 2  to 9929
+2024-05-23 21:09:13.387187[debug]: filesize:6951, 2  to 7073
+2024-05-23 21:09:13.399846[debug]: [GET], [/images/instagram-image1.jpg], [1.1]
+2024-05-23 21:09:13.399965[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/instagram-image1.jpg
+2024-05-23 21:09:13.400538[debug]: filesize:75836, 2  to 75960
+2024-05-23 21:09:13.400931[debug]: [GET], [/images/instagram-image2.jpg], [1.1]
+2024-05-23 21:09:13.401066[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/instagram-image2.jpg
+2024-05-23 21:09:13.401829[debug]: filesize:67313, 2  to 67437
+2024-05-23 21:09:13.405087[debug]: [GET], [/images/instagram-image3.jpg], [1.1]
+2024-05-23 21:09:13.405239[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/instagram-image3.jpg
+2024-05-23 21:09:13.405268[debug]: [GET], [/images/instagram-image4.jpg], [1.1]
+2024-05-23 21:09:13.405353[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/instagram-image4.jpg
+2024-05-23 21:09:13.405912[debug]: filesize:59528, 2  to 59652
+2024-05-23 21:09:13.406082[debug]: filesize:103418, 2  to 103543
+2024-05-23 21:09:13.406213[debug]: [GET], [/images/instagram-image5.jpg], [1.1]
+2024-05-23 21:09:13.406315[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/instagram-image5.jpg
+2024-05-23 21:09:13.406883[debug]: filesize:49545, 2  to 49669
+2024-05-23 21:09:13.415284[debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2024-05-23 13:09:13.415350[debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2024-05-23 21:09:13.415354[debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2024-05-23 21:09:13.415361[debug]: [GET], [/js/jquery.js], [1.1]
+2024-05-23 21:09:13.415413[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/bootstrap.min.js
+2024-05-23 21:09:13.415423[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.magnific-popup.min.js
+2024-05-23 21:09:13.415441[debug]: filesize:20932, 2  to 21062
+2024-05-23 21:09:13.415464[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.js
+2024-05-23 21:09:13.415478[debug]: filesize:85658, 2  to 85788
+2024-05-23 21:09:13.415473[debug]: filesize:36868, 2  to 36998
+2024-05-23 21:09:13.415474[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/magnific-popup-options.js
+2024-05-23 21:09:13.415583[debug]: filesize:1069, 2  to 1198
+2024-05-23 21:09:13.416411[debug]: [GET], [/js/smoothscroll.js], [1.1]
+2024-05-23 21:09:13.416448[debug]: [GET], [/js/wow.min.js], [1.1]
+2024-05-23 21:09:13.416507[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/smoothscroll.js
+2024-05-23 21:09:13.416550[debug]: filesize:4474, 2  to 4603
+2024-05-23 21:09:13.416588[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/wow.min.js
+2024-05-23 21:09:13.416817[debug]: filesize:7082, 2  to 7211
+2024-05-23 21:09:13.421168[debug]: [GET], [/js/custom.js], [1.1]
+2024-05-23 21:09:13.421247[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/custom.js
+2024-05-23 21:09:13.421271[debug]: filesize:1047, 2  to 1176
+2024-05-23 21:09:14.802500[debug]: [GET], [/video], [1.1]
+2024-05-23 21:09:14.802746[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//404.html
+2024-05-23 21:09:14.802796[debug]: filesize:3149, 2  to 3278
+2024-05-23 21:09:14.820799[debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2024-05-23 21:09:14.820885[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/bootstrap.min.css
+2024-05-23 21:09:14.820937[debug]: filesize:121260, 2  to 121384
+2024-05-23 21:09:14.824611[debug]: [GET], [/css/animate.css], [1.1]
+2024-05-23 21:09:14.824742[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/animate.css
+2024-05-23 21:09:14.824783[debug]: filesize:72922, 2  to 73045
+2024-05-23 21:09:14.826550[debug]: [GET], [/css/magnific-popup.css], [1.1]
+2024-05-23 21:09:14.826637[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/magnific-popup.css
+2024-05-23 21:09:14.826662[debug]: filesize:6951, 2  to 7073
+2024-05-23 21:09:14.826941[debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2024-05-23 21:09:14.827024[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/font-awesome.min.css
+2024-05-23 21:09:14.827055[debug]: filesize:27392, 2  to 27515
+2024-05-23 21:09:14.827215[debug]: [GET], [/images/profile-image.jpg], [1.1]
+2024-05-23 21:09:14.827279[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/profile-image.jpg
+2024-05-23 21:09:14.827310[debug]: filesize:47176, 2  to 47300
+2024-05-23 21:09:14.827470[debug]: [GET], [/css/style.css], [1.1]
+2024-05-23 21:09:14.827562[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/style.css
+2024-05-23 21:09:14.827618[debug]: filesize:9807, 2  to 9929
+2024-05-23 21:09:14.832050[debug]: [GET], [/js/jquery.js], [1.1]
+2024-05-23 21:09:14.832138[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.js
+2024-05-23 21:09:14.832166[debug]: filesize:85658, 2  to 85788
+2024-05-23 21:09:14.847038[debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2024-05-23 21:09:14.847143[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/bootstrap.min.js
+2024-05-23 21:09:14.847172[debug]: filesize:36868, 2  to 36998
+2024-05-23 21:09:14.847677[debug]: [GET], [/js/smoothscroll.js], [1.1]
+2024-05-23 21:09:14.847740[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/smoothscroll.js
+2024-05-23 21:09:14.847767[debug]: filesize:4474, 2  to 4603
+2024-05-23 21:09:14.847985[debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2024-05-23 21:09:14.848038[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.magnific-popup.min.js
+2024-05-23 21:09:14.848061[debug]: filesize:20932, 2  to 21062
+2024-05-23 21:09:14.848304[debug]: [GET], [/js/wow.min.js], [1.1]
+2024-05-23 21:09:14.848362[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/wow.min.js
+2024-05-23 21:09:14.848386[debug]: filesize:7082, 2  to 7211
+2024-05-23 21:09:14.849031[debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2024-05-23 21:09:14.849099[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/magnific-popup-options.js
+2024-05-23 21:09:14.849119[debug]: [GET], [/js/custom.js], [1.1]
+2024-05-23 21:09:14.849128[debug]: filesize:1069, 2  to 1198
+2024-05-23 21:09:14.849332[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/custom.js
+2024-05-23 21:09:14.849343[debug]: filesize:1047, 2  to 1176
+2024-05-23 21:09:17.043017[debug]: [GET], [/picture.html], [1.1]
+2024-05-23 21:09:17.043081[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//picture.html
+2024-05-23 21:09:17.043136[debug]: filesize:3960, 2  to 4082
+2024-05-23 21:09:17.057377[debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2024-05-23 21:09:17.057481[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/bootstrap.min.css
+2024-05-23 21:09:17.057512[debug]: filesize:121260, 2  to 121384
+2024-05-23 21:09:17.057833[debug]: [GET], [/css/animate.css], [1.1]
+2024-05-23 21:09:17.057923[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/animate.css
+2024-05-23 21:09:17.057960[debug]: filesize:72922, 2  to 73045
+2024-05-23 21:09:17.058784[debug]: [GET], [/css/style.css], [1.1]
+2024-05-23 21:09:17.058895[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/style.css
+2024-05-23 21:09:17.058930[debug]: filesize:9807, 2  to 9929
+2024-05-23 21:09:17.059045[debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2024-05-23 21:09:17.059112[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/font-awesome.min.css
+2024-05-23 21:09:17.059138[debug]: filesize:27392, 2  to 27515
+2024-05-23 21:09:17.059338[debug]: [GET], [/css/magnific-popup.css], [1.1]
+2024-05-23 21:09:17.059384[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/magnific-popup.css
+2024-05-23 21:09:17.059408[debug]: filesize:6951, 2  to 7073
+2024-05-23 21:09:17.059439[debug]: [GET], [/images/profile-image.jpg], [1.1]
+2024-05-23 21:09:17.059507[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/profile-image.jpg
+2024-05-23 21:09:17.059538[debug]: filesize:47176, 2  to 47300
+2024-05-23 21:09:17.067409[debug]: [GET], [/images/instagram-image1.jpg], [1.1]
+2024-05-23 21:09:17.067517[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/instagram-image1.jpg
+2024-05-23 21:09:17.067548[debug]: filesize:75836, 2  to 75960
+2024-05-23 21:09:17.074730[debug]: [GET], [/images/instagram-image2.jpg], [1.1]
+2024-05-23 21:09:17.074832[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/instagram-image2.jpg
+2024-05-23 21:09:17.074861[debug]: filesize:67313, 2  to 67437
+2024-05-23 21:09:17.077941[debug]: [GET], [/images/instagram-image3.jpg], [1.1]
+2024-05-23 21:09:17.078082[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/instagram-image3.jpg
+2024-05-23 21:09:17.078110[debug]: filesize:59528, 2  to 59652
+2024-05-23 21:09:17.080823[debug]: [GET], [/images/instagram-image4.jpg], [1.1]
+2024-05-23 21:09:17.080990[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/instagram-image4.jpg
+2024-05-23 21:09:17.080924[debug]: [GET], [/images/instagram-image5.jpg], [1.1]
+2024-05-23 21:09:17.081046[debug]: filesize:103418, 2  to 103543
+2024-05-23 21:09:17.081066[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/instagram-image5.jpg
+2024-05-23 21:09:17.081078[debug]: filesize:49545, 2  to 49669
+2024-05-23 21:09:17.088436[debug]: [GET], [/js/jquery.js], [1.1]
+2024-05-23 21:09:17.088537[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.js
+2024-05-23 21:09:17.088571[debug]: filesize:85658, 2  to 85788
+2024-05-23 21:09:17.088711[debug]: [GET], [/js/smoothscroll.js], [1.1]
+2024-05-23 21:09:17.088792[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/smoothscroll.js
+2024-05-23 21:09:17.088825[debug]: filesize:4474, 2  to 4603
+2024-05-23 21:09:17.089035[debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2024-05-23 21:09:17.089128[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.magnific-popup.min.js
+2024-05-23 21:09:17.089044[debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2024-05-23 21:09:17.089247[debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2024-05-23 21:09:17.089365[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/bootstrap.min.js
+2024-05-23 21:09:17.089461[debug]: filesize:36868, 2  to 36998
+2024-05-23 21:09:17.089411[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/magnific-popup-options.js
+2024-05-23 21:09:17.089627[debug]: filesize:1069, 2  to 1198
+2024-05-23 21:09:17.089394[debug]: filesize:20932, 2  to 21062
+2024-05-23 21:09:17.089731[debug]: [GET], [/js/wow.min.js], [1.1]
+2024-05-23 21:09:17.089827[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/wow.min.js
+2024-05-23 21:09:17.089912[debug]: filesize:7082, 2  to 7211
+2024-05-23 21:09:17.097689[debug]: [GET], [/js/custom.js], [1.1]
+2024-05-23 21:09:17.097801[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/custom.js
+2024-05-23 21:09:17.097828[debug]: filesize:1047, 2  to 1176
+2024-05-23 21:09:18.566674[debug]: [GET], [/index.html], [1.1]
+2024-05-23 21:09:18.566770[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//index.html
+2024-05-23 21:09:18.567562[debug]: filesize:3148, 2  to 3270
+2024-05-23 21:09:18.590716[debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2024-05-23 21:09:18.590817[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/bootstrap.min.css
+2024-05-23 21:09:18.590847[debug]: filesize:121260, 2  to 121384
+2024-05-23 21:09:18.594350[debug]: [GET], [/css/animate.css], [1.1]
+2024-05-23 21:09:18.594522[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/animate.css
+2024-05-23 21:09:18.594605[debug]: filesize:72922, 2  to 73045
+2024-05-23 21:09:18.594653[debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2024-05-23 21:09:18.594727[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/font-awesome.min.css
+2024-05-23 21:09:18.594754[debug]: filesize:27392, 2  to 27515
+2024-05-23 21:09:18.594850[debug]: [GET], [/images/profile-image.jpg], [1.1]
+2024-05-23 21:09:18.594945[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/profile-image.jpg
+2024-05-23 21:09:18.594982[debug]: filesize:47176, 2  to 47300
+2024-05-23 21:09:18.595121[debug]: [GET], [/css/style.css], [1.1]
+2024-05-23 21:09:18.595237[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/style.css
+2024-05-23 21:09:18.595271[debug]: filesize:9807, 2  to 9929
+2024-05-23 21:09:18.595385[debug]: [GET], [/css/magnific-popup.css], [1.1]
+2024-05-23 21:09:18.595435[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/magnific-popup.css
+2024-05-23 21:09:18.595456[debug]: filesize:6951, 2  to 7073
+2024-05-23 21:09:18.600255[debug]: [GET], [/js/jquery.js], [1.1]
+2024-05-23 21:09:18.600348[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.js
+2024-05-23 21:09:18.600378[debug]: filesize:85658, 2  to 85788
+2024-05-23 21:09:18.604652[debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2024-05-23 21:09:18.604745[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/bootstrap.min.js
+2024-05-23 21:09:18.604771[debug]: filesize:36868, 2  to 36998
+2024-05-23 21:09:18.611211[debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2024-05-23 21:09:18.611325[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.magnific-popup.min.js
+2024-05-23 21:09:18.611357[debug]: filesize:20932, 2  to 21062
+2024-05-23 21:09:18.611410[debug]: [GET], [/js/smoothscroll.js], [1.1]
+2024-05-23 21:09:18.611485[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/smoothscroll.js
+2024-05-23 21:09:18.611517[debug]: filesize:4474, 2  to 4603
+2024-05-23 21:09:18.611664[debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2024-05-23 21:09:18.611716[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/magnific-popup-options.js
+2024-05-23 21:09:18.611737[debug]: filesize:1069, 2  to 1198
+2024-05-23 21:09:18.611795[debug]: [GET], [/js/wow.min.js], [1.1]
+2024-05-23 21:09:18.611852[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/wow.min.js
+2024-05-23 21:09:18.611874[debug]: filesize:7082, 2  to 7211
+2024-05-23 21:09:18.612812[debug]: [GET], [/js/custom.js], [1.1]
+2024-05-23 21:09:18.612894[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/custom.js
+2024-05-23 21:09:18.612917[debug]: filesize:1047, 2  to 1176
+2024-05-23 21:09:20.079324[debug]: [GET], [/video], [1.1]
+2024-05-23 21:09:20.079420[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//404.html
+2024-05-23 21:09:20.079446[debug]: filesize:3149, 2  to 3278
+2024-05-23 21:09:20.101744[debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2024-05-23 21:09:20.101959[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/bootstrap.min.css
+2024-05-23 21:09:20.102036[debug]: filesize:121260, 2  to 121384
+2024-05-23 21:09:20.104791[debug]: [GET], [/css/animate.css], [1.1]
+2024-05-23 21:09:20.104905[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/animate.css
+2024-05-23 21:09:20.104948[debug]: filesize:72922, 2  to 73045
+2024-05-23 21:09:20.106009[debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2024-05-23 21:09:20.106106[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/font-awesome.min.css
+2024-05-23 21:09:20.106133[debug]: filesize:27392, 2  to 27515
+2024-05-23 21:09:20.106634[debug]: [GET], [/images/profile-image.jpg], [1.1]
+2024-05-23 21:09:20.106750[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/profile-image.jpg
+2024-05-23 21:09:20.106776[debug]: [GET], [/css/style.css], [1.1]
+2024-05-23 21:09:20.106807[debug]: filesize:47176, 2  to 47300
+2024-05-23 21:09:20.106854[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/style.css
+2024-05-23 21:09:20.106923[debug]: filesize:9807, 2  to 9929
+2024-05-23 21:09:20.106983[debug]: [GET], [/css/magnific-popup.css], [1.1]
+2024-05-23 21:09:20.107065[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/magnific-popup.css
+2024-05-23 21:09:20.107092[debug]: filesize:6951, 2  to 7073
+2024-05-23 21:09:20.112255[debug]: [GET], [/js/jquery.js], [1.1]
+2024-05-23 21:09:20.112411[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.js
+2024-05-23 21:09:20.112457[debug]: filesize:85658, 2  to 85788
+2024-05-23 21:09:20.122723[debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2024-05-23 21:09:20.122802[debug]: [GET], [/js/smoothscroll.js], [1.1]
+2024-05-23 21:09:20.122868[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/bootstrap.min.js
+2024-05-23 21:09:20.122888[debug]: filesize:36868, 2  to 36998
+2024-05-23 21:09:20.122912[debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2024-05-23 21:09:20.122946[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/smoothscroll.js
+2024-05-23 21:09:20.123003[debug]: filesize:4474, 2  to 4603
+2024-05-23 21:09:20.122948[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.magnific-popup.min.js
+2024-05-23 21:09:20.123093[debug]: filesize:20932, 2  to 21062
+2024-05-23 21:09:20.123258[debug]: [GET], [/js/wow.min.js], [1.1]
+2024-05-23 21:09:20.123308[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/wow.min.js
+2024-05-23 21:09:20.123330[debug]: filesize:7082, 2  to 7211
+2024-05-23 21:09:20.124063[debug]: [GET], [/js/custom.js], [1.1]
+2024-05-23 21:09:20.124090[debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2024-05-23 21:09:20.124123[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/custom.js
+2024-05-23 21:09:20.124158[debug]: filesize:1047, 2  to 1176
+2024-05-23 21:09:20.124167[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/magnific-popup-options.js
+2024-05-23 21:10:54.838256[debug]: ========== Server init ==========
+2024-05-23 21:10:54.838265[debug]: Port:1514, OpenLinger: false
+2024-05-23 21:10:54.838267[debug]: Listen Mode: ET, OpenConn Mode: ET
+2024-05-23 21:10:54.838268[debug]: LogSys level: 0
+2024-05-23 21:10:54.838269[debug]: srcDir: /home/randolfluo/MyPorject/TinyWebServer/resources/
+2024-05-23 21:10:54.838271[debug]: SqlConnPool num: 12, ThreadPool num: 6
+2024-05-23 21:10:54.838272[debug]: ========== Server start ==========
+2024-05-23 21:10:58.714360[debug]: Client[18](127.0.0.1:49361) in, userCount:1
+2024-05-23 21:10:58.714529[debug]: Client[18] in!
+2024-05-23 21:10:58.715103[debug]: [GET], [/video.html], [1.1]
+2024-05-23 21:10:58.715157[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//video.html
+2024-05-23 21:10:58.715178[debug]: filesize:3347, 2  to 3469
+2024-05-23 21:10:58.728116[debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2024-05-23 21:10:58.728270[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/bootstrap.min.css
+2024-05-23 21:10:58.728314[debug]: filesize:121260, 2  to 121384
+2024-05-23 21:10:58.731492[debug]: [GET], [/css/animate.css], [1.1]
+2024-05-23 21:10:58.731703[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/animate.css
+2024-05-23 21:10:58.731834[debug]: filesize:72922, 2  to 73045
+2024-05-23 21:10:58.734826[debug]: [GET], [/css/magnific-popup.css], [1.1]
+2024-05-23 21:10:58.734984[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/magnific-popup.css
+2024-05-23 21:10:58.735021[debug]: filesize:6951, 2  to 7073
+2024-05-23 21:10:58.737802[debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2024-05-23 21:10:58.737973[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/font-awesome.min.css
+2024-05-23 21:10:58.738019[debug]: filesize:27392, 2  to 27515
+2024-05-23 21:10:58.740760[debug]: [GET], [/css/style.css], [1.1]
+2024-05-23 21:10:58.740864[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//css/style.css
+2024-05-23 21:10:58.740880[debug]: filesize:9807, 2  to 9929
+2024-05-23 21:10:58.743267[debug]: [GET], [/images/profile-image.jpg], [1.1]
+2024-05-23 21:10:58.743472[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//images/profile-image.jpg
+2024-05-23 21:10:58.743584[debug]: filesize:47176, 2  to 47300
+2024-05-23 21:10:58.746489[debug]: [GET], [/js/jquery.js], [1.1]
+2024-05-23 21:10:58.746610[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.js
+2024-05-23 21:10:58.746639[debug]: filesize:85658, 2  to 85788
+2024-05-23 21:10:58.751244[debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2024-05-23 21:10:58.751353[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/bootstrap.min.js
+2024-05-23 21:10:58.751377[debug]: filesize:36868, 2  to 36998
+2024-05-23 21:10:58.758966[debug]: [GET], [/video/xxx.mp4], [1.1]
+2024-05-23 21:10:58.759078[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//video/xxx.mp4
+2024-05-23 21:10:58.759106[debug]: filesize:39667571, 2  to 39667698
+2024-05-23 21:10:58.765250[debug]: Client[18] quit!
+2024-05-23 21:10:58.765478[debug]: Client[18](127.0.0.1:49361) quit, UserCount:0
+2024-05-23 21:10:58.808019[debug]: Client[18](127.0.0.1:50897) in, userCount:1
+2024-05-23 21:10:58.808091[debug]: Client[18] in!
+2024-05-23 21:10:58.808720[debug]: [GET], [/js/smoothscroll.js], [1.1]
+2024-05-23 21:10:58.808770[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/smoothscroll.js
+2024-05-23 21:10:58.808792[debug]: filesize:4474, 2  to 4603
+2024-05-23 21:10:58.810854[debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2024-05-23 21:10:58.810956[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/jquery.magnific-popup.min.js
+2024-05-23 21:10:58.810982[debug]: filesize:20932, 2  to 21062
+2024-05-23 21:10:58.813434[debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2024-05-23 21:10:58.813539[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/magnific-popup-options.js
+2024-05-23 21:10:58.813562[debug]: filesize:1069, 2  to 1198
+2024-05-23 21:10:58.815534[debug]: [GET], [/js/wow.min.js], [1.1]
+2024-05-23 21:10:58.815773[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/wow.min.js
+2024-05-23 21:10:58.815800[debug]: filesize:7082, 2  to 7211
+2024-05-23 21:10:58.818162[debug]: [GET], [/js/custom.js], [1.1]
+2024-05-23 21:10:58.818298[debug]: file path /home/randolfluo/MyPorject/TinyWebServer/resources//js/custom.js
+2024-05-23 21:10:58.818326[debug]: filesize:1047, 2  to 1176
+2024-05-23 21:10:58.965800[debug]: Client[21](127.0.0.1:53969) in, userCount:2
+2024-05-23 21:10:58.965871[debug]: Client[21] in!
+2024-05-23 21:10:59.035076[debug]: Client[22](127.0.0.1:55505) in, userCount:3
+2024-05-23 21:10:59.035217[debug]: Client[22] in!
+2024-05-23 21:10:59.035498[debug]: Client[24](127.0.0.1:57041) in, userCount:4
+2024-05-23 21:10:59.035641[debug]: Client[24] in!
+2024-05-23 21:10:59.035898[debug]: Client[25](127.0.0.1:60113) in, userCount:5
+2024-05-23 21:10:59.036005[debug]: Client[25] in!
+2024-05-23 21:11:00.248132[debug]: Client[18] quit!
+2024-05-23 21:11:00.248271[debug]: Client[18](127.0.0.1:50897) quit, UserCount:4
+2024-05-23 21:11:00.248290[debug]: Client[21] quit!
+2024-05-23 21:11:00.248306[debug]: Client[21](127.0.0.1:53969) quit, UserCount:3
+2024-05-23 21:11:00.248336[debug]: Client[22] quit!
+2024-05-23 21:11:00.248351[debug]: Client[22](127.0.0.1:55505) quit, UserCount:2
+2024-05-23 21:11:00.248512[debug]: Client[24] quit!
+2024-05-23 21:11:00.248702[debug]: Client[24](127.0.0.1:57041) quit, UserCount:1

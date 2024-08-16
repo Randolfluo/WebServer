@@ -1,4 +1,3 @@
 all:
 	mkdir -p bin
-	cd build && make1	
-	2132
+	cd build && make

@@ -1,9 +1,14 @@
 #include "httpconn.h"
 
 
-static bool isET;
-static const char *srcDir;
-static std::atomic<int> userCount;
+// static bool isET;
+// static const char *srcDir;
+// static std::atomic<int> userCount;
+
+
+const char* HttpConn::srcDir;
+std::atomic<int> HttpConn::userCount;
+bool HttpConn::isET;
 
 HttpConn::HttpConn()
  {

@@ -258,7 +258,7 @@ bool HttpRequest::UserVerify(const std::string &name, const std::string &pwd,
 }
 
 const std::unordered_set<std::string> HttpRequest::DeFALUT_HTML{
-    "/index", "/register", "/login", "/welcome", "video", "/picture",
+    "/index", "/register", "/login", "/welcome", "/video", "/picture",
 };
 
 const std::unordered_map<std::string, int> HttpRequest::DEFALUT_HTML_TAG{

@@ -1,0 +1,10 @@
+2024-05-13 18:18:30.942241[debug]: ========== Server init ==========
+2024-05-13 18:18:30.942264[debug]: Port:1514, OpenLinger: false
+2024-05-13 18:18:30.942267[debug]: Listen Mode: ET, OpenConn Mode: ET
+2024-05-13 18:18:30.942269[debug]: LogSys level: 0
+2024-05-13 18:18:30.942317[debug]: srcDir: /home/randolfluo/MyPorject/TinyWebServer/resources/
+2024-05-13 18:20:30.831092[debug]: ========== Server init ==========
+2024-05-13 18:20:30.831115[debug]: Port:1514, OpenLinger: false
+2024-05-13 18:20:30.831118[debug]: Listen Mode: ET, OpenConn Mode: ET
+2024-05-13 18:20:30.831120[debug]: LogSys level: 0
+2024-05-13 18:20:30.831166[debug]: srcDir: /home/randolfluo/MyPorject/TinyWebServer/resources/

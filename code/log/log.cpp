@@ -13,7 +13,6 @@ void Log::init(int level, const char *path, const char *suffix,
       std::unique_ptr<BlockDeque<std::string>> newDequeue(
           new BlockDeque<std::string>);
       deque_ = move(newDequeue);
-
       std::unique_ptr<std::thread> newThread(new std::thread(FlushLogThread));
       writeThread_ = move(newThread);
     }
