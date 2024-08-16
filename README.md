@@ -33,7 +33,7 @@
 
 
 ### 感谢
-Linux高性能服务器编程，游双著.
-@qinguoyi
-@markparticle
-@JehanRio7
+- Linux高性能服务器编程，游双著.
+- @qinguoyi
+- @markparticle
+- @JehanRio7
